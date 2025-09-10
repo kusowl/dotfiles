@@ -1,0 +1,45 @@
+[1323413d-3c75-4024-a20f-0f2e5e566b01]
+Description=Application settings for jetbrains-phpstorm
+clientmachine=localhost
+opacityactive=92
+opacityactiverule=2
+opacityinactive=85
+opacityinactiverule=2
+wmclass=jetbrains-phpstorm
+wmclasscomplete=true
+wmclassmatch=2
+
+[3f4bc62e-b534-4c13-971b-14415e9cc936]
+Description=remove xaywland artifact
+position=0,-3
+positionrule=2
+strictgeometry=true
+strictgeometryrule=2
+wmclass=xwayland
+wmclasscomplete=true
+wmclassmatch=2
+
+[General]
+count=4
+rules=e340e4f6-817a-41e7-b488-1edc507db966,1323413d-3c75-4024-a20f-0f2e5e566b01,d7b56e37-558a-4940-bb97-b6a2d1ab73cd,3f4bc62e-b534-4c13-971b-14415e9cc936
+
+[d7b56e37-558a-4940-bb97-b6a2d1ab73cd]
+Description=Transparent windows
+opacityactive=95
+opacityactiverule=2
+opacityinactive=82
+opacityinactiverule=2
+types=957
+wmclass=^(?!zen|jetbrains-phpstorm)$
+
+[e340e4f6-817a-41e7-b488-1edc507db966]
+Description=Window settings for Adobe Photoshop CC 2019
+Enabled=false
+clientmachine=localhost
+opacityactiverule=2
+opacityinactiverule=2
+title=Adobe Photoshop CC 2019
+types=32
+wmclass=RAIL Adobe Photoshop CC 2019
+wmclasscomplete=true
+wmclassmatch=2

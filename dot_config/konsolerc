@@ -1,0 +1,14 @@
+[Desktop Entry]
+DefaultProfile=Kushal.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Enabled
+
+[SplitView]
+SplitViewVisibility=AlwaysHideSplitHeader
+
+[UiSettings]
+ColorScheme=Breeze Dark - Modifed

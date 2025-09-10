@@ -1,0 +1,6 @@
+[Common]
+OutlineIntensity=OutlineOff
+ShadowColor=5,6,24
+
+[Windeco]
+ButtonSize=ButtonSmall

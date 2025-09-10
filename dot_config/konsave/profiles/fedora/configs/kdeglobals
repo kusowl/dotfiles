@@ -1,0 +1,190 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=60,67,143
+BackgroundNormal=38,43,59
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:Complementary]
+BackgroundAlternate=34,85,124
+BackgroundNormal=29,34,49
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:Header]
+BackgroundAlternate=29,34,49
+BackgroundNormal=38,43,59
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:Header][Inactive]
+BackgroundAlternate=38,43,59
+BackgroundNormal=29,34,49
+DecorationFocus=76,171,237
+DecorationHover=76,171,237
+ForegroundActive=76,171,237
+ForegroundInactive=157,168,191
+ForegroundLink=53,151,244
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:Selection]
+BackgroundAlternate=54,61,136
+BackgroundNormal=54,61,136
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=255,255,255
+ForegroundLink=50,57,134
+ForegroundNegative=164,66,90
+ForegroundNeutral=186,100,66
+ForegroundNormal=255,255,255
+ForegroundPositive=28,102,77
+ForegroundVisited=148,92,187
+
+[Colors:Tooltip]
+BackgroundAlternate=29,34,49
+BackgroundNormal=38,43,59
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:View]
+BackgroundAlternate=26,30,45
+BackgroundNormal=17,21,34
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[Colors:Window]
+BackgroundAlternate=38,43,59
+BackgroundNormal=29,34,49
+DecorationFocus=69,78,184
+DecorationHover=69,78,184
+ForegroundActive=69,78,184
+ForegroundInactive=157,168,191
+ForegroundLink=191,192,223
+ForegroundNegative=204,82,106
+ForegroundNeutral=231,126,80
+ForegroundNormal=247,251,255
+ForegroundPositive=55,171,122
+ForegroundVisited=148,92,187
+
+[DirSelect Dialog]
+DirSelectDialog Size=819,601
+History Items[$e]=file:$HOME/Videos/OBS,file:$HOME/Videos/OBS,file:///data
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+AccentColor=69,78,184
+ColorSchemeHash=946a55d07cc573c55cb51dda674178e060c83310
+LastUsedCustomAccentColor=69,78,184
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Satoshi Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Satoshi Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Satoshi Variable,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Satoshi Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Slot-Multicolor-Dark-Icons
+
+[KDE]
+DoubleClickInterval=300
+ShowDeleteCommand=false
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=29,34,49
+activeBlend=252,252,252
+activeFont=Satoshi Variable,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=255,255,255
+inactiveBackground=29,34,49
+inactiveBlend=161,169,177
+inactiveForeground=164,166,172

@@ -1,0 +1,5 @@
+{
+  "language_server_php_cs_fixer.enabled": true,
+  "language_server_php_cs_fixer.bin": "~/.composer/vendor/bin/php-cs-fixer",
+  "language_server_php_cs_fixer.config": "~/.config/php-cs-fixer/php-cs-fixer.php"
+}
