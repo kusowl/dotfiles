@@ -105,4 +105,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias cl=clear
 alias ls='eza --icons=always -g --color=always'
+alias cm=chezmoi
+alias lg=lazygit
 eval "$(zoxide init zsh)"
