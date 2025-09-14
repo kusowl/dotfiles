@@ -28,5 +28,17 @@
     "bindings": {
       "ctrl-p": "file_finder::Toggle"
     }
+  },
+  {
+    "context": "(vim_mode == helix_normal && !menu)",
+    "bindings": {
+      "ctrl-w": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "(VimControl || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w": "pane::CloseActiveItem"
+    }
   }
 ]
