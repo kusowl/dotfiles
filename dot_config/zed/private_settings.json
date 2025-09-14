@@ -13,6 +13,8 @@
   "theme": "Tokyo Night Storm",
   "ui_font_size": 18,
   "buffer_font_size": 18,
+  "preferred_line_length": 142,
+  "soft_wrap": "preferred_line_length",
   "buffer_line_height": {
     "custom": 2
   },
@@ -136,12 +138,7 @@
       "formatter": {
         "external": {
           "command": "blade-formatter",
-          "arguments": [
-            "--sort-tailwindcss-classes",
-            "--stdin=true",
-            "--write",
-            "{buffer_path}"
-          ]
+          "arguments": ["--sort-tailwindcss-classes", "--stdin=true", "--write", "{buffer_path}"]
         }
       }
     },
