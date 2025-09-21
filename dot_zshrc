@@ -107,4 +107,5 @@ alias cl=clear
 alias ls='eza --icons=always -g --color=always'
 alias cm=chezmoi
 alias lg=lazygit
+alias vc=vscodium
 eval "$(zoxide init zsh)"
