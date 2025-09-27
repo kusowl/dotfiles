@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Synthwave)",
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
   "workbench.iconTheme": "catppuccin-frappe",
   "workbench.activityBar.location": "hidden",
   "workbench.editor.showTabs": "none",
@@ -47,7 +47,9 @@
     ".title .monaco-icon-label:after": "margin-right: 0",
     ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
     ".title .monaco-icon-label.file-icon": "margin: 0 60px",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #afe2ff 10%, #a970da 100%); border-radius:10px;",
+    ".monaco-list-row" : "width:97%",
+    ".monaco-list-row .focused .selected" : "border-radius: 5px",
   },
   "custom-ui-style.font.sansSerif": "JetBrainsMono Nerd Font Mono",
   // "editor.multiCursorModifier": "ctrlCmd",
@@ -138,6 +140,8 @@
   "editor.cursorBlinking": "phase",
   "window.commandCenter": false,
   "workbench.editor.editorActionsLocation": "hidden",
-  "window.menuBarVisibility": "compact",
-  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua"
+  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
+  "window.titleBarStyle": "native",
+  "git.confirmSync": false,
+  "workbench.panel.showLabels": false
 }
