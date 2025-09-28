@@ -11,8 +11,10 @@
 
   "icon_theme": "Catppuccin Macchiato",
   "theme": "Tokyo Night Storm",
-  "ui_font_size": 18,
+  "ui_font_size": 16,
+  "ui_font_family": "GeistMono Nerd Font Mono",
   "buffer_font_size": 18,
+  "buffer_font_family": "GeistMono Nerd Font Mono",
   "preferred_line_length": 128,
   "soft_wrap": "preferred_line_length",
   "buffer_line_height": {
