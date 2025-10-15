@@ -1,6 +1,4 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-  "workbench.iconTheme": "catppuccin-frappe",
   "workbench.activityBar.location": "hidden",
   "workbench.editor.showTabs": "none",
   "workbench.statusBar.visible": false,
@@ -133,7 +131,7 @@
   "editor.formatOnSave": true,
   "git.enableSmartCommit": true,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -143,5 +141,11 @@
   "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
   "window.titleBarStyle": "native",
   "git.confirmSync": false,
-  "workbench.panel.showLabels": false
+  "workbench.panel.showLabels": false,
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.colorTheme": "Tailwind Moon Blue",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

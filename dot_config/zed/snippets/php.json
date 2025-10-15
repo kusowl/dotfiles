@@ -1,6 +1,10 @@
 {
-  "pubm": {
-    "prefix": "pubm",
+  "this": {
+    "prefix": "this",
+    "body": "$this-> {$0}"
+  },
+  "pubf": {
+    "prefix": "pubf",
     "body": "public function ${1:name}(${2:variables}){$0}"
   },
   "echo": {
@@ -15,11 +19,7 @@
   },
   "foreach": {
     "prefix": "fore",
-    "body": [
-      "foreach (${1:$array} as ${2:$key} => ${3:$value}) {",
-      "\t${0:// code}",
-      "}"
-    ],
+    "body": ["foreach (${1:$array} as ${2:$key} => ${3:$value}) {", "\t${0:// code}", "}"],
     "description": "Foreach loop with key and value"
   },
   "if": {
@@ -29,11 +29,7 @@
   },
   "function": {
     "prefix": "fun",
-    "body": [
-      "function ${1:functionName}(${2:$parameters}) {",
-      "\t${0:// code}",
-      "}"
-    ],
+    "body": ["function ${1:functionName}(${2:$parameters}) {", "\t${0:// code}", "}"],
     "description": "Function declaration"
   }
 }

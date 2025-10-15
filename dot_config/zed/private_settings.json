@@ -69,8 +69,8 @@
 
   // Control which items are shown/hidden in the title bar
   "title_bar": {
-    "show_branch_icon": false, // Show/hide branch icon beside branch switcher
-    "show_branch_name": false, // Show/hide branch name
+    "show_branch_icon": true, // Show/hide branch icon beside branch switcher
+    "show_branch_name": true, // Show/hide branch name
     "show_project_items": true, // Show/hide project host and name
     "show_onboarding_banner": false, // Show/hide onboarding banners
     "show_user_picture": true, // Show/hide user avatar
@@ -132,11 +132,19 @@
       "settings": {
         "feature_paths": true
       }
+    },
+    "tailwindcss-language-server": {
+      "settings": {
+        "classFunctions": ["cva", "cx"],
+        "experimental": {
+          "classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)"]
+        }
+      }
     }
   },
   "languages": {
     "Blade": {
-      "language_servers": ["phptools", "phpactor", "..."],
+      "language_servers": ["phptools", "!phpactor", "..."],
       "formatter": {
         "external": {
           "command": "blade-formatter",
@@ -145,12 +153,44 @@
       }
     },
     "PHP": {
-      "language_servers": ["phptools", "phpactor", "..."],
+      "language_servers": ["phptools", "!phpactor", "..."],
       "formatter": {
-        "code_actions": {
-          "source.fixAll.phpactor.phpCsFixer": true
+        "external": {
+          "command": "pretty-php",
+          "arguments": ["--stdin-filename", "{buffer_path}", "--output", "-", "--preset", "laravel"]
         }
       }
+    }
+  },
+  "terminal": {
+    "alternate_scroll": "off",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "keep_selection_on_copy": false,
+    "dock": "bottom",
+    "default_width": 640,
+    "default_height": 320,
+    "detect_venv": {
+      "on": {
+        "directories": [".env", "env", ".venv", "venv"],
+        "activate_script": "default"
+      }
+    },
+    "env": {},
+    "font_family": "GeistMono Nerd Font Propo",
+    "font_features": null,
+    "font_size": 12,
+    "line_height": "comfortable",
+    "minimum_contrast": 45,
+    "option_as_meta": false,
+    "button": false,
+    "shell": "system",
+    "toolbar": {
+      "breadcrumbs": false
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": "always"
     }
   }
 }
