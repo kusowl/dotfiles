@@ -111,3 +111,4 @@ alias vc=vscodium
 eval "$(zoxide init zsh)"
 alias artisan='php ./artisan'
 . "/home/kushal/.deno/env"
+alias ps='phpstan --memory-limit=3g'
