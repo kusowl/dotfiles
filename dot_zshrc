@@ -109,6 +109,6 @@ alias cm=chezmoi
 alias lg=lazygit
 alias vc=vscodium
 eval "$(zoxide init zsh)"
-alias artisan='php ./artisan'
+alias ar='php ./artisan'
 . "/home/kushal/.deno/env"
 alias ps='phpstan --memory-limit=3g'
